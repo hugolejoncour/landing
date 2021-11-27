@@ -1,0 +1,71 @@
+body {
+ 	background-color: white;
+ 	color: rgb(50, 50, 50);
+ 	font-family: Work Sans, sans-serif;
+ 	
+
+} 	
+
+h1 {
+    color: black;
+    font-family: Gorgia, sans-serif;
+    font-weight: bold; 
+    font-size: 50px;
+
+ }
+h2 {
+	color: rgb(80, 80, 80);
+}
+
+h3 {
+	color: black;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+
+}
+a:hover {
+	color: black;
+}
+
+div {
+	background-color: rgb(160, 160, 160);
+	padding: 60px;
+	margin: 40px;
+	border-radius: 20px;
+	box-shadow: 0 15px 30px rgba(0,0,0,1);
+}
+
+img {
+	width: 250px;
+}
+/* Custom design with class (99% of your designe) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.btn-white {
+	background-color: rgb(100, 100, 100);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 20px;
+}
+
+
